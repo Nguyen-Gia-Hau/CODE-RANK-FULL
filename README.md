@@ -5,7 +5,7 @@
 Before starting, ensure that the following software is installed on your system:
 
 1. **Node.js**:  
-   - Required version: >= 22.  
+   - Required version: >= 16.  
    - Used for running the backend and managing JavaScript functionalities.
 
 2. **NPM**:  
@@ -17,4 +17,9 @@ Before starting, ensure that the following software is installed on your system:
    - Serves as the database management system.
 
 ## Installation Guide
-...
+
+### Step 1: Clone the Repository
+Run the following command to clone the source code to your machine:  
+
+```bash
+git clone git@github.com:Nguyen-Gia-Hau/CODE-RANK-FULL.git
