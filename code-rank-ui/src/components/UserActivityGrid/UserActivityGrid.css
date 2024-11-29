@@ -1,0 +1,17 @@
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(53, 12px);
+  /* 53 weeks, each week having 7 days */
+  grid-template-rows: repeat(7, 12px);
+  /* 7 rows for the days of the week */
+  gap: 2px;
+  /* Space between cells */
+}
+
+.activity-cell {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background-color: #ebedf0;
+  /* Default background */
+}

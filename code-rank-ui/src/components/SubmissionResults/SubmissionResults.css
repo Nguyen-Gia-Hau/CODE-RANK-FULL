@@ -1,0 +1,79 @@
+
+/* Container tổng cho kết quả */
+.submission-results-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Tiêu đề */
+.submission-results-container h4 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #343a40;
+  text-align: center;
+}
+
+/* Bảng kết quả */
+.submission-results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  text-align: left;
+}
+
+/* Định dạng cho tiêu đề cột */
+.submission-results-table th {
+  padding: 12px 15px;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #ddd;
+  font-weight: bold;
+}
+
+/* Các ô dữ liệu */
+.submission-results-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+  white-space: pre-wrap;
+}
+
+/* Định dạng hàng xen kẽ */
+.submission-results-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Định dạng hàng khi hover */
+.submission-results-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Định dạng cho kết quả đúng */
+.submission-results-table .correct-row {
+  background-color: #d4edda; /* Xanh lá nhạt */
+  color: #155724; /* Xanh lá đậm */
+  font-weight: bold;
+}
+
+/* Định dạng cho kết quả sai */
+.submission-results-table .error-row {
+  background-color: #f8d7da; /* Đỏ nhạt */
+  color: #721c24; /* Đỏ đậm */
+  font-weight: bold;
+}
+
+/* Định dạng lỗi */
+.error {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Canh giữa ô 'Yes/No' */
+.submission-results-table td:nth-child(6) {
+  text-align: center;
+}
+

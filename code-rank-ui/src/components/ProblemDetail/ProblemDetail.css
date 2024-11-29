@@ -1,0 +1,196 @@
+/* ProblemDetail.css */
+.problem-detail-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.problem-detail {
+  width: 60%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.problem-detail h2 {
+  margin-bottom: 20px;
+}
+
+.problem-detail p {
+  margin-bottom: 10px;
+}
+
+.problem-detail pre {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.code-submission {
+  width: 35%;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Test Case Table Styles */
+.test-case-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.test-case-table th,
+.test-case-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.test-case-table th {
+  background-color: #f2f2f2;
+}
+
+/* Input Styles */
+.test-case-input,
+.test-case-output {
+  resize: none;
+  width: 90%;
+  height: 40px;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Button Styles */
+.btn-show-modal,
+.btn-add-testcase,
+.btn-create,
+.btn-cancel,
+.btn-remove {
+  width: 100px;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-show-modal {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-add-testcase {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-create {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-cancel {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-remove {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Disabled button */
+.btn-remove:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+/* Styles for Edit Problem Form */
+.edit-problem-form {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.edit-problem-form h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.edit-problem-form label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin: 10px 0 5px;
+}
+
+.edit-problem-form input[type="text"],
+.edit-problem-form input[type="number"],
+.edit-problem-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.edit-problem-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.edit-problem-form .btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.edit-problem-form .btns button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edit-problem-form .btns button:first-child {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.edit-problem-form .btns button:last-child {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.edit-problem-form .btns button:hover {
+  opacity: 0.9;
+}
+
+
+
+.problems-comment {
+  width: 100%;
+  /* Chiếm toàn bộ chiều rộng của phần tử chứa */
+  text-align: left;
+  /* Căn chỉnh nội dung bên trái */
+  display: block;
+  /* Đảm bảo phần tử chiếm toàn bộ chiều rộng */
+  margin: 0;
+  /* Loại bỏ khoảng cách mặc định */
+}

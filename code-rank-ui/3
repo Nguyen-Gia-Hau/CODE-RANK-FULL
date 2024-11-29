@@ -1,0 +1,35 @@
+
+
+.user-submissions-container {
+  margin-top: 20px;
+}
+
+.submissions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.submissions-table th, .submissions-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.submissions-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.submissions-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.success-row {
+  background-color: #d4edda;  /* Xanh lá nhạt */
+  color: #155724;  /* Xanh lá đậm */
+}
+
+.failed-row {
+  background-color: #f8d7da;  /* Đỏ nhạt */
+  color: #721c24;  /* Đỏ đậm */
+}
+

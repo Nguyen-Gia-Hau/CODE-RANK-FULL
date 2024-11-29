@@ -1,0 +1,223 @@
+/* Container for problems */
+.problems {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.problems h1 {
+  font-size: 28px;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Problems table */
+.problems-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.problems-table {
+  width: 65%;
+}
+
+.problem-table-container {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.problem-table-container th,
+.problem-table-container td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+}
+
+.problem-table-container th {
+  background-color: #343a40;
+  color: #fff;
+  text-align: left;
+}
+
+.problem-table-container td {
+  text-align: left;
+}
+
+.problem-table-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.problem-table-button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.problem-table-button.update {
+  background-color: #007bff;
+  color: white;
+}
+
+.problem-table-button:hover {
+  opacity: 0.8;
+}
+
+/* Filters section */
+.filters-container {
+  width: 30%;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.filters-container h2 {
+  font-size: 20px;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.problem-filters-group {
+  margin-bottom: 15px;
+}
+
+.problem-filters-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.problem-filters-group select,
+.problem-filters-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+/* Range inputs */
+.problem-filters-range-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.problem-filters-range-group input[type="range"] {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.problem-filters-range-group span {
+  font-size: 14px;
+}
+
+/* Modal */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.modal button {
+  background-color: #6c757d;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Problem Form Modal */
+.problem-form-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  /* Prevents overflow outside the modal */
+}
+
+.problem-form-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%;
+  max-height: 90%;
+  /* Limits the height of the modal to 90% of the screen */
+  overflow-y: auto;
+  /* Enables vertical scrolling if content overflows */
+}
+
+.problem-form-group {
+  margin-bottom: 15px;
+}
+
+/* Optional: Prevent body scrolling when the modal is open */
+body.modal-open {
+  overflow: hidden;
+}
+
+
+.problem-form-modal-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.problem-form-group {
+  margin-bottom: 15px;
+}
+
+.problem-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.problem-form-group input,
+.problem-form-group select,
+.problem-form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.problem-form-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.problem-form-button-submit {
+  background-color: #28a745;
+  color: white;
+}
+
+.problem-form-button-cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+.problem-form-button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,102 @@
+
+/* Container chính cho submission code */
+.code-submission-container {
+  max-width: 600px; /* Kích thước tối đa */
+  margin: 20px auto; /* Giữa màn hình với khoảng cách trên và dưới */
+  padding: 20px;
+  border: 1px solid #ccc; /* Đường viền màu xám */
+  border-radius: 8px; /* Bo góc */
+  background-color: #f9f9f9; /* Màu nền */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+}
+
+/* Tiêu đề của form */
+.code-submission-container h3 {
+  text-align: center; /* Căn giữa */
+  margin-bottom: 20px; /* Khoảng cách dưới */
+  font-size: 1.8em; /* Kích thước chữ lớn hơn */
+  color: #343a40; /* Màu chữ */
+}
+
+/* Định dạng cho form */
+.code-submission-container form {
+  display: flex;
+  flex-direction: column; /* Cột */
+}
+
+/* Textarea cho mã */
+.code-submission-container textarea {
+  width: 100%; /* Chiều rộng 100% */
+  height: 200px; /* Chiều cao */
+  margin-bottom: 10px; /* Khoảng cách dưới */
+  padding: 10px; /* Padding */
+  border: 1px solid #ccc; /* Đường viền */
+  border-radius: 4px; /* Bo góc */
+  font-family: monospace; /* Font chữ monospace */
+  font-size: 14px; /* Kích thước chữ */
+  resize: none; /* Không cho phép thay đổi kích thước */
+}
+
+/* Định dạng cho select, input[type="file"], và button */
+.code-submission-container select,
+.code-submission-container input[type="file"],
+.code-submission-container button {
+  margin-bottom: 10px; /* Khoảng cách dưới */
+  padding: 10px; /* Padding */
+  border: 1px solid #ccc; /* Đường viền */
+  border-radius: 4px; /* Bo góc */
+}
+
+/* Định dạng cho button */
+.code-submission-container button {
+  background-color: #007bff; /* Màu nền chính */
+  color: white; /* Màu chữ */
+  cursor: pointer; /* Con trỏ chuột khi di qua */
+  transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.code-submission-container button:hover {
+  background-color: #0056b3; /* Màu nền khi hover */
+}
+
+/* Định dạng cho thông báo */
+.code-submission-container .message {
+  margin-top: 15px; /* Khoảng cách trên */
+  font-size: 16px; /* Kích thước chữ */
+  text-align: center; /* Căn giữa */
+}
+
+/* Màu sắc cho thông báo thành công */
+.code-submission-container .message.success {
+  color: #155724; /* Xanh lá */
+  background-color: #d4edda; /* Nền xanh lá nhạt */
+  padding: 10px; /* Padding */
+  border-radius: 5px; /* Bo góc */
+}
+
+/* Màu sắc cho thông báo lỗi */
+.code-submission-container .message.error {
+  color: #721c24; /* Đỏ đậm */
+  background-color: #f8d7da; /* Nền đỏ nhạt */
+  padding: 10px; /* Padding */
+  border-radius: 5px; /* Bo góc */
+}
+
+/* Spinner khi đang tải */
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1); /* Đường viền mờ */
+  border-left-color: #22a6b3; /* Màu sắc của bên trái */
+  border-radius: 50%; /* Hình tròn */
+  width: 24px; /* Chiều rộng */
+  height: 24px; /* Chiều cao */
+  animation: spin 1s linear infinite; /* Hiệu ứng quay */
+  margin: 10px auto; /* Căn giữa */
+}
+
+/* Hiệu ứng quay */
+@keyframes spin {
+  to {
+    transform: rotate(360deg); /* Quay 360 độ */
+  }
+}
+

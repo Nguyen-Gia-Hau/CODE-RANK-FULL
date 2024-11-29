@@ -1,0 +1,217 @@
+.contest-list-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contest-section {
+  margin-bottom: 40px;
+}
+
+
+h3 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Upcoming contest styles (green) */
+.upcoming-contest .contest-list-item {
+  border-left: 5px solid #4CAF50;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #f0fff0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcoming-contest .contest-title {
+  color: #4CAF50;
+}
+
+.upcoming-contest .contest-actions button {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  color: white;
+}
+
+.upcoming-contest .contest-actions button:hover {
+  background-color: #45a049;
+}
+
+/* Ongoing contest styles (red) */
+.ongoing-contest .contest-list-item {
+  border-left: 5px solid #FF5722;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #fff5f0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ongoing-contest .contest-title {
+  color: #FF5722;
+}
+
+.ongoing-contest .contest-actions button {
+  background-color: #FF5722;
+  border-color: #FF5722;
+  color: white;
+}
+
+.ongoing-contest .contest-actions button:hover {
+  background-color: #e64a19;
+}
+
+/* Past contest styles (gray) */
+.past-contest .contest-list-item {
+  border-left: 5px solid #9E9E9E;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.past-contest .contest-title {
+  color: #9E9E9E;
+}
+
+.past-contest .contest-actions button {
+  background-color: #9E9E9E;
+  border-color: #9E9E9E;
+  color: white;
+}
+
+.past-contest .contest-actions button:hover {
+  background-color: #757575;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc;
+}
+
+.problems-table {
+  text-align: center;
+}
+
+
+
+/* Styling the table layout */
+.ant-table {
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header */
+.ant-table th {
+  background-color: #eaf4fc;
+  /* Light blue header */
+  font-weight: bold;
+  text-align: center;
+}
+
+.ant-table td,
+.ant-table th {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Row background color */
+.ant-table-row:nth-child(odd) {
+  background-color: #f3f9fe;
+}
+
+.ant-table-row:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* Order column styling */
+.ant-table .order-column {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Username column link styling */
+.ant-table .username-column a {
+  color: #1a6fbd;
+  /* Ocean blue for links */
+  text-decoration: none;
+}
+
+.ant-table .username-column a:hover {
+  color: #0d4d8c;
+  /* Darker shade on hover */
+  text-decoration: underline;
+}
+
+/* Problems Solved column */
+.status-solved {
+  color: #4caf50;
+  /* Soft green */
+  font-weight: bold;
+  background: green;
+}
+
+.status-unsolved {
+  color: #e57373;
+  /* Soft red */
+  font-weight: bold;
+  background: #e57373;
+}
+
+.status-solved a,
+.status-unsolved a {
+  text-decoration: none;
+  color: black;
+}
+
+.status-solved a:hover,
+.status-unsolved a:hover {
+  text-decoration: underline;
+}
+
+/* Points column */
+.ant-table .points-column {
+  font-weight: bold;
+  color: #ffa726;
+  /* Light orange */
+}

@@ -1,0 +1,114 @@
+/* Container tổng */
+.user-submissions-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+.user-submissions-container h4 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Định dạng bảng */
+.submissions-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+/* Tiêu đề bảng */
+.submissions-table th,
+.submissions-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Hàng tiêu đề */
+.submissions-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Định dạng hàng xen kẽ */
+.submissions-table tr:nth-child(even) {}
+
+/* Khi di chuột vào hàng */
+.submissions-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Hàng thành công */
+.success-row {
+  background-color: #d4edda;
+  color: #155724;
+  font-weight: bold;
+}
+
+/* Hàng thất bại */
+.failed-row {
+  color: #721c24;
+  font-weight: bold;
+}
+
+/* Định dạng trạng thái */
+.submissions-table .success-row td,
+.submissions-table .failed-row td {
+  text-align: center;
+}
+
+
+/* Container tổng cho phần lọc */
+.filter-section {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Nhãn cho bộ lọc */
+.filter-section label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+/* Bộ lọc dropdown */
+.filter-section select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hiệu ứng khi focus vào dropdown */
+.filter-section select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Điều chỉnh cho giao diện mobile */
+@media (max-width: 768px) {
+  .filter-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .filter-section label {
+    margin-bottom: 5px;
+  }
+}
