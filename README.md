@@ -30,3 +30,16 @@ Run the following command to clone the source code to your machine:
 ```bash
    cd code-rank-services && npm install && cd ../code-rank-ui && npm install
 ```
+#Demo UI:
+## Watch Video Tutorial
+
+If you want to learn more about setting up the project, watch the tutorial below:
+
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/98nxyu6-82U?si=yoZLrqx8BOd_w2nu" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
