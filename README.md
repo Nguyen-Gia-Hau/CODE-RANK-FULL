@@ -31,6 +31,10 @@ Run the following command to clone the source code to your machine:
    cd code-rank-services && npm install && cd ../code-rank-ui && npm install
 ```
 #Demo UI:
+##Login
+![Login](./screenshot/login.png)
+##Register
+![Register](./screenshot/register.png)
 ### authentication
 <iframe width="560" height="315" 
     src="https://www.youtube.com/embed/98nxyu6-82U?si=yoZLrqx8BOd_w2nu" 
