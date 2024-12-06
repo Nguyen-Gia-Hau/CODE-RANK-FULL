@@ -23,3 +23,10 @@ Run the following command to clone the source code to your machine:
 
 ```bash
 git clone git@github.com:Nguyen-Gia-Hau/CODE-RANK-FULL.git
+```
+
+### Step 2: Navigate to the project directories and install the necessary dependencies by running the provided command.
+Run the following command to clone the source code to your machine: 
+```bash
+   cd code-rank-services && npm install && cd ../code-rank-ui && npm install
+```
